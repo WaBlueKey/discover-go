@@ -12,15 +12,15 @@ func main() {
 
 	//if statement to see if number is < or > 50.
 	if randomNumber > 50 {
-		fmt.Println("my random number is", randomNumber, "and is greater than 50")
+		fmt.Printf("my random number is %d and is greater than 50\n", randomNumber)
 	} else {
-		fmt.Println("my random number is", randomNumber, "and is less than 50")
+		fmt.Printf("my random number is %d and is less than 50\n", randomNumber)
 	}
 	//Assign Holberton School string to a variable.
 	school := "Holberton School"
 
 	if school == "Holberton School" {
-		fmt.Println("I am a student of the", school)
+		fmt.Printf("I am a student of the %s\n", school)
 	}
 
 	//Assign boolean value of true to beautifulWeather.
